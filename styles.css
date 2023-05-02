@@ -1,0 +1,13 @@
+body {
+    background-color: goldenrod;
+}
+
+#main {
+    background-color: white;
+    width: 850px;
+    height: auto;
+    border: 20px solid white;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
