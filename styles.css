@@ -2,6 +2,11 @@ body {
     background-color: goldenrod;
 }
 
+@font-face {
+    font-family: "Hook Franco";
+    src: url('Hook Franco.ttf');
+  }
+
 #main {
     background-color: white;
     width: 850px;
@@ -10,4 +15,10 @@ body {
     margin: 0 auto;
     margin-top: -10px;
     margin-bottom: -10px;
+}
+
+#title {
+    font-family: 'Hook Franco',cursive;
+    color: crimson;
+    font-size: 111px;
 }
