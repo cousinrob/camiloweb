@@ -1,11 +1,42 @@
 body {
-    background-color: goldenrod;
+    background-color: #5a5a5a;
 }
 
 @font-face {
     font-family: "Hook Franco";
     src: url('Hook Franco.ttf');
   }
+
+a {
+    color:#118609
+}
+a:hover {
+    text-decoration:underline;
+    text-decoration-style: double;
+}
+
+p {
+    color:black;
+    font-family: Georgia,serif;
+}
+
+h1 {
+    color: #118609;
+    font-family:'Hook Franco';
+    font-size: 38px;
+}
+
+h3 {
+    color: #118609;
+    font-family:'Hook Franco';
+    font-size: 28px;
+}
+
+h4 {
+    color:#118609;
+    font-family: Georgia,serif;
+    font-size: 18px;
+}
 
 #main {
     background-color: white;
@@ -19,6 +50,56 @@ body {
 
 #title {
     font-family: 'Hook Franco',cursive;
-    color: crimson;
+    color: #118609;
     font-size: 111px;
+}
+
+#nav {
+    text-align:center;
+}
+
+#nav a{
+    font-family: Georgia, serif;
+    font-size: 28px;
+    color:#118609;
+    background-color: #c6c6c6;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    display: inline-block;
+    border-radius:10px;
+    text-decoration:none;
+    
+}
+
+#nav a:hover {
+    background-color: #e6e6e6;
+    transition: background-color 0.8s ease;
+}
+
+
+#site {
+    display:inline-flex;
+}
+
+#content {
+    color: black;
+    font-size: 18px;
+    font-family: Georgia, serif;
+    box-sizing: border-box;
+    width: 650px;
+    height: auto;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+#sidebar {
+    font-size: 16px;
+    font-family: Georgia, serif;
+    box-sizing: border-box;
+    width: 300px;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 40px;
+    display: inline-block;
 }
