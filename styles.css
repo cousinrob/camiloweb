@@ -8,16 +8,17 @@ body {
   }
 
 a {
-    color:#118609
+    color: #118609
 }
+
 a:hover {
-    text-decoration:underline;
+    text-decoration: underline;
     text-decoration-style: double;
 }
 
 p {
-    color:black;
-    font-family: Georgia,serif;
+    color: black;
+    font-family: Georgia, serif;
 }
 
 h1 {
@@ -28,13 +29,13 @@ h1 {
 
 h3 {
     color: #118609;
-    font-family:'Hook Franco';
+    font-family: 'Hook Franco';
     font-size: 28px;
 }
 
 h4 {
-    color:#118609;
-    font-family: Georgia,serif;
+    color: #118609;
+    font-family: Georgia, serif;
     font-size: 18px;
 }
 
@@ -46,6 +47,8 @@ h4 {
     margin: 0 auto;
     margin-top: -10px;
     margin-bottom: -10px;
+    display: flex;
+    flex-direction: column;
 }
 
 #title {
@@ -55,21 +58,24 @@ h4 {
 }
 
 #nav {
-    text-align:center;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+
 }
 
 #nav a{
     font-family: Georgia, serif;
     font-size: 28px;
-    color:#118609;
+    color: #118609;
     background-color: #c6c6c6;
     padding: 10px;
     box-sizing: border-box;
     margin: 5px;
-    display: inline-block;
-    border-radius:10px;
+    border-radius: 10px;
     text-decoration:none;
-    
 }
 
 #nav a:hover {
@@ -79,7 +85,9 @@ h4 {
 
 
 #site {
-    display:inline-flex;
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
 }
 
 #content {
@@ -89,7 +97,9 @@ h4 {
     box-sizing: border-box;
     width: 650px;
     height: auto;
-    display: inline-block;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
     margin-top: 40px;
 }
 
@@ -97,9 +107,11 @@ h4 {
     font-size: 16px;
     font-family: Georgia, serif;
     box-sizing: border-box;
-    width: 300px;
+    width: 200px;
     height: auto;
     margin-left: 0px;
     margin-top: 40px;
-    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
